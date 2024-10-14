@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name="videos")
-@NamedQuery(name = "Video.findAll", query = "SELECT c FROM Category c")
+@NamedQuery(name = "Video.findAll", query = "SELECT c FROM Video c")
 public class Video implements Serializable{
 
 	/**
